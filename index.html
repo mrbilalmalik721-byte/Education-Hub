@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Hub</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #003d80;
+        }
+        .container {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .admin-bar {
+            background-color: #222;
+            color: #FFD700;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 16px;
+            margin-top: 20px;
+            border-top: 3px solid gold;
+            border-bottom: 3px solid gold;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 0;
+        }
+        footer img {
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Education Hub</h1>
+</header>
+
+<nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="details.html">📄 Details</a>
+    <a href="contact.html">📞 Contact</a>
+    <a href="topics.html">📚 Topics</a>
+</nav>
+
+<div class="container">
+    <div class="card"><a href="chemistry.html">🧪 Chemistry</a></div>
+    <div class="card"><a href="biology.html">🧬 Biology</a></div>
+    <div class="card"><a href="english.html">📖 English</a></div>
+    <div class="card"><a href="math.html">➗ Math</a></div>
+    <div class="card"><a href="pakstudy.html">🇵🇰 Pak Study</a></div>
+    <div class="card"><a href="physics.html">⚛️ Physics</a></div>
+    <div class="card"><a href="sindhi.html">📝 Sindhi</a></div>
+</div>
+
+<div class="admin-bar">
+    ADMIN: MÛHÂMMÂD ẞÎLÂL MÂLÎK
+</div>
+
+<footer>
+    Knowledge is Power — Learn Today for a Better Tomorrow
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg" alt="PK Flag">
+</footer>
+
+</body>
+</html>
